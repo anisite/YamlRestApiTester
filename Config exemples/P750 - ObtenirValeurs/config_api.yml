@@ -1,0 +1,10 @@
+http_client:
+  api:
+      method: POST
+      url: https://ptsv2.com/t/pb8g1-1666744464/post
+      # Ntlm auto negociation
+      #use_default_credentials: true
+      # Any specific required headers
+      headers:
+          #CodeNT: '{{System.CodeNT}}'
+          Accept: 'application/json'

@@ -1,0 +1,18 @@
+# ParamUrl pour un api GET
+paramsUrl:
+    clee: piv.entete.nomSiteMOLigne2
+    noSystemeAutorise: 1
+    typeFormulaire: 3003
+    version: 0
+    
+# Dans le cas d'un POST
+content:
+    json_content: |
+      {
+        "test":"lol"
+      }
+        
+retourAttendu:
+    manuel: true
+    json_content: |
+        {{Fichier "nomfichier.pdf"}}
